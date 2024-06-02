@@ -12,15 +12,16 @@ This repository contains a .NET API (Producer) and a Console App (Consumer) for 
 
 If you are using Docker, you can start RabbitMQ with the following command:
 
-```yaml
-version: "3.8"
-services:
-  rabbitmq:
-    container_name: "rabbitmq"
-    image: rabbitmq:3.8-management-alpine
-    environment:
-      - RABBITMQ_DEFAULT_USER=user
-      - RABBITMQ_DEFAULT_PASS=mypass
-    ports:
-      - "5672:5672"   # RabbitMQ instance
-      - "15672:15672" # Web interface
+Go to the root
+
+```
+docker compose up
+```
+
+Run both cosole app and the web api
+```
+dotnet run
+```
+
+go to localhost:15672 to see the rabbitMQ gui
+
