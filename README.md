@@ -8,9 +8,7 @@ This repository contains a .NET API (Producer) and a Console App (Consumer) for 
 - [RabbitMQ](https://www.rabbitmq.com/download.html)
 - [Docker](https://www.docker.com/products/docker-desktop) (optional, for running RabbitMQ in a container)
 
-## RabbitMQ Setup
-
-If you are using Docker, you can start RabbitMQ with the following command:
+## How to run
 
 Go to the root
 
