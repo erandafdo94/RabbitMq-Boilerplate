@@ -1,4 +1,4 @@
-# RabbitMQ Boilerplate Codebase
+# RabbitMQ Boilerplate 
 
 This repository contains a .NET API (Producer) and a Console App (Consumer) for demonstrating RabbitMQ message queuing.
 
